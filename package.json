@@ -1,0 +1,21 @@
+{
+  "name": "jsreport",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "jsreport-core": "^1.5.1",
+    "jsreport-jsrender": "^1.0.2",
+    "jsreport-phantom-pdf": "^1.4.6"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.11"
+  }
+}
